@@ -14,14 +14,15 @@ z-index:1;
 #Solve {
     width:100%;
     height:25%;
-    font-size:170%;
+    /* font-size:170%;*/
 
 }
 
 #New {
     width:100%;
     height:25%;
-    font-size:250%;
+    font-size: 50px;
+    /* font-size:250%;*/
 }
 
 
