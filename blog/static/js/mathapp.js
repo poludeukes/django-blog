@@ -6,8 +6,8 @@ var AM = [];
 	AM[ 3 ]           = { question:"n(A,B) normálvektorú, (x_0,y_0) ponton átmenő e egyenes egyenlete:",         answer:"Ax + By = Ax_0 + By_0"        };        
 	AM[ 4 ]           = { question:"i(v_1,v_2) irányvektorú, (x_0,y_0) ponton átmenő e egyenes egyenlete:",         answer:"v_2*x - v_1*y = v_2*x_0 - v_1*y_0"        };        
 	AM[ 5 ]           = { question:"Mondd ki a Cosinus-tételt!",       answer:"c^2 = a^2 + b^2 -2ab cos(gamma)"       };        
-    AM[ 6 ]           = { question:"sin(alfa) = ?)"             ,       answer:"a szöggel szemközti befogó osztva az átfogóval"    };
-    AM[ 7 ]           = { question:"cos(alfa) = ?)"             ,       answer:"a szög melleti befogó osztva az átfogóval"    };
+    AM[ 6 ]           = { question:"sin(alfa) = ?"             ,       answer:"a szöggel szemközti befogó osztva az átfogóval"    };
+    AM[ 7 ]           = { question:"cos(alfa) = ?"             ,       answer:"a szög melleti befogó osztva az átfogóval"    };
     AM[ 8 ]           = { question: "Mely egyenesek metszéspontja adja a háromszög körülírt körének középpontját?",  answer: "oldalfelező merőlegesek" };
     AM[ 9 ]           = { question: "Mely egyenesek metszéspontja adja a háromszög beírt körének középpontját?", answer: "szögfelezők" };
     AM[ 10]           = { question: "A háromszög súlypontja hogyan osztja a súlyvonalakat?" , answer: "Harmadolja őket. Mindig a csúcsok felé esik a 2/3, az oldalak felé az 1/3 rész" };
@@ -103,7 +103,7 @@ function NewProblem() {
     var numberOfQuestions = AM.length;
     var questionID = Math.floor((Math.random()*numberOfQuestions)%numberOfQuestions);
     
-    document.getElementById("Solve").innerHTML = AM[questionID].question + "<p> Nyomd meg a megoldásért!</p>";
+    document.getElementById("Solve").innerHTML = AM[questionID].question;
     document.getElementById("solution").innerHTML = "";
     
     
