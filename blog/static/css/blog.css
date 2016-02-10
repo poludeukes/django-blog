@@ -1,3 +1,40 @@
+#mathapp {
+z-index:1;
+    width:100%;
+    height:100%;
+    position:fixed;
+}
+
+#sol_container{
+    width:100%;
+    height:50%;
+    background-color: white;
+}
+
+#Solve {
+    width:100%;
+    height:25%;
+    font-size:170%;
+
+}
+
+#New {
+    width:100%;
+    height:25%;
+    font-size:250%;
+}
+
+
+#Solution {
+    font-size:200%;
+    padding:20px;    
+    width:100%;
+    height:50%;*/
+}
+
+
+
+
 h1 a {
   color: #FCA205;
 }
