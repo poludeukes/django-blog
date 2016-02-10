@@ -20,7 +20,7 @@ var AM = [];
     AM[ 17]           = { question: "Kör területe:"      ,       answer: "T = r^2 * pi"  };
     AM[ 18]           = { question: "Kör kerülete:"      ,       answer: "T = 2r*pi" };
     AM[ 19]           = { question: "Párhuzamos szelők tétele és Párhuzamos szelő szakaszok tétele:", answer: "Egy szög csúcsa O, a szelők A, A', B és B' pontokat adják. OA/OA' = OB/OB' = AB/A'B' "  };
-    AM[ 20]           = { question: "Mondd ki a Thalesz-tételt:",       answer: "Átmérőből másik két húrral rajzol háromszög derékszögű!"  };
+    AM[ 20]           = { question: "Mondd ki a Thalesz-tételt:",       answer: "Átmérőből másik két húrral rajzolt háromszög derékszögű!"  };
     AM[ 21]           = { question: "Külső pontból körhöz húzott érintők tulajdonságai:"      ,       answer: "1. A külső pont és az érintési pontok által meghatározott két szakasz egyenlő. 2. Az érintési pontba húzott sugarak merőlegesek az érintőkre."  };
     AM[ 22]           = { question: "sin(0) = ",         answer: "0" };
     AM[ 23]           = { question: "sin(30) = ",        answer: "1/2" };
